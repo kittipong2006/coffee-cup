@@ -2,41 +2,7 @@
 <html>
   <head>
     <title>Coffee Cup</title>
-    <style>
-        .cup {
-            position: absolute;
-            margin: auto;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            width: 120px;
-            height: 100px;
-            background-color: black;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-        .cup:before {
-            position: absolute;
-            content: '';
-            border: 15px solid #000;
-            border-radius: 100px;
-            height: 40px;
-            width: 40px;
-            right: -35px;
-        }
-        .cup:after {
-            position: absolute;
-            content: '';
-            bottom: -25px;
-            left: -40px;
-            width: 200px;
-            height: 20px;
-            background-color: black;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-    </style>
+    <link rel='stylesheet' type='text/css' href='css/coffeeCup.css'>
   </head>
   <body>
     <div class='cup'></div>

@@ -1,0 +1,24 @@
+{
+  "name": "coffee-cup",
+  "version": "1.0.0",
+  "description": "Test A",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittipong2006/coffee-cup.git"
+  },
+  "author": "KittipongA.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittipong2006/coffee-cup/issues"
+  },
+  "homepage": "https://github.com/kittipong2006/coffee-cup#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
